@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CgpaActivity"
+    tools:ignore="HardcodedText">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/page_title" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/S1"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:autofillHints="creditCardNumber"
+            android:backgroundTint="@color/colorPrimary"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:hint="@string/S1"
+            android:inputType="numberDecimal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/g1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Grade"
+            android:textSize="24sp"
+            android:textColor="@color/color2" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/S2"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:autofillHints="creditCardNumber"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:hint="@string/S2"
+            android:inputType="numberDecimal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/g2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Grade"
+            android:textSize="24sp"
+            android:textColor="@color/color2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/S3"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:autofillHints="creditCardNumber"
+
+            android:backgroundTint="@color/colorPrimary"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:hint="@string/S3"
+            android:inputType="numberDecimal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/g3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Grade"
+            android:textSize="24sp"
+            android:textColor="@color/color2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/S4"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:autofillHints="creditCardNumber"
+
+            android:backgroundTint="@color/colorPrimary"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:hint="@string/S4"
+            android:inputType="numberDecimal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/g4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Grade"
+            android:textSize="24sp"
+            android:textColor="@color/color2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/S5"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:autofillHints="creditCardNumber"
+
+            android:backgroundTint="@color/colorPrimary"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:hint="@string/S5"
+            android:inputType="numberDecimal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/g5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Grade"
+            android:textSize="24sp"
+            android:textColor="@color/color2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/S6"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:autofillHints="creditCardNumber"
+
+            android:backgroundTint="@color/colorPrimary"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:hint="@string/S6"
+            android:inputType="numberDecimal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/g6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Grade"
+            android:textSize="24sp"
+            android:textColor="@color/color2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/S7"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:autofillHints="creditCardNumber"
+
+            android:backgroundTint="@color/colorPrimary"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:hint="@string/S7"
+            android:inputType="numberDecimal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/g7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Grade"
+            android:textSize="24sp"
+            android:textColor="@color/color2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/S8"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:autofillHints="creditCardNumber"
+
+            android:backgroundTint="@color/colorPrimary"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:hint="@string/S8"
+            android:inputType="numberDecimal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/g8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Grade"
+            android:textSize="24sp"
+            android:textColor="@color/color2" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="3dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+        android:hint="@string/tv_hint"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_calc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Calculate"
+            android:textColor="@android:color/white"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/resetButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:text="Reset"
+            android:textColor="@color/colorPrimary" />
+        <Button
+            android:id="@+id/grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Show Grades"
+            android:textColor="@android:color/white"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300sp"
+            android:gravity="center"
+            android:text="@string/credits"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/color1"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

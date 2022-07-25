@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="#3589c0"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="212dp"
+        android:layout_height="221dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:src="@mipmap/ic_launcher_load"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Empac collage Of Technology"
+        android:textAlignment="center"
+        android:padding="10sp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        />
+</LinearLayout>

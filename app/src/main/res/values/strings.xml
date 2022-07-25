@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Empac</string>
+
+
+    <!-- For CGPA Calculator Section-->
+    <string name="heading"><b>CGPA calculator for BTEB</b></string>
+    <string name="tv_hint">Your CGPA</string>
+    <string name="S1">1st Semester</string>
+    <string name="S2">2nd Semester</string>
+    <string name="S3">3rd Semester</string>
+    <string name="S4">4th Semester</string>
+    <string name="S5">5th Semester</string>
+    <string name="S6">6th Semester</string>
+    <string name="S7">7th Semester</string>
+    <string name="S8">8th Semester</string>
+    <string name="credits"><b>© Mojahidul Islam Emon. All rights reserved to Nobody</b></string>
+</resources>
