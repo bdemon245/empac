@@ -30,7 +30,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="For You"
+            android:text="Most Used"
             android:textColor="@color/blue"
             android:layout_marginStart="15sp"
             android:layout_marginTop="20sp"
@@ -48,30 +48,30 @@
 
             <ImageView
                 android:id="@+id/menu1"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="85sp"
+                android:layout_height="85sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:src="@drawable/ic_launcher_background" />
+                android:src="@drawable/ic_best_empac" />
 
             <ImageView
                 android:id="@+id/menu2"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="85sp"
+                android:layout_height="85sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:src="@drawable/calculator_menu" />
+                android:src="@drawable/ic_calculator_empac" />
 
             <ImageView
                 android:id="@+id/menu3"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="85sp"
+                android:layout_height="85sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:src="@drawable/ic_launcher_background" />
+                android:src="@drawable/ic_admission" />
         </LinearLayout>
 
         <TextView
@@ -93,8 +93,8 @@
 
             <ImageView
                 android:id="@+id/menu4"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
@@ -102,8 +102,8 @@
 
             <ImageView
                 android:id="@+id/menu5"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
@@ -111,8 +111,8 @@
 
             <ImageView
                 android:id="@+id/menu6"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
@@ -128,8 +128,8 @@
 
             <ImageView
                 android:id="@+id/menu7"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
@@ -137,8 +137,8 @@
 
             <ImageView
                 android:id="@+id/menu8"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
@@ -146,8 +146,8 @@
 
             <ImageView
                 android:id="@+id/menu9"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
@@ -163,8 +163,8 @@
 
             <ImageView
                 android:id="@+id/menu10"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
@@ -172,8 +172,8 @@
 
             <ImageView
                 android:id="@+id/menu11"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"
@@ -181,8 +181,8 @@
 
             <ImageView
                 android:id="@+id/menu12"
-                android:layout_width="93sp"
-                android:layout_height="93sp"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
                 android:layout_margin="10sp"
                 android:clickable="true"
                 android:focusable="true"

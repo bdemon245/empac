@@ -8,6 +8,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     ImageView menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8,menu9,menu10,menu11,menu12;
+    Intent act1,act2,act3,act4,act5,act6,act7,act8,act9,act10,act11,act12;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,18 +29,18 @@ public class MainActivity extends AppCompatActivity {
         menu12 = findViewById(R.id.menu12);
 
         //initiating activities
-        Intent act1 = new Intent(MainActivity.this, MainActivity1.class);
-        Intent act2 = new Intent(MainActivity.this, CgpaActivity.class);
-        Intent act3 = new Intent(MainActivity.this, MainActivity3.class);
-        Intent act4 = new Intent(MainActivity.this, MainActivity4.class);
-        Intent act5 = new Intent(MainActivity.this, MainActivity5.class);
-        Intent act6 = new Intent(MainActivity.this, MainActivity6.class);
-        Intent act7 = new Intent(MainActivity.this, MainActivity7.class);
-        Intent act8 = new Intent(MainActivity.this, MainActivity8.class);
-        Intent act9 = new Intent(MainActivity.this, MainActivity9.class);
-        Intent act10 = new Intent(MainActivity.this, MainActivity10.class);
-        Intent act11 = new Intent(MainActivity.this, MainActivity11.class);
-        Intent act12 = new Intent(MainActivity.this, MainActivity12.class);
+         act1 = new Intent(MainActivity.this, MainActivity1.class);
+         act2 = new Intent(MainActivity.this, CgpaActivity.class);
+         act3 = new Intent(MainActivity.this, MainActivity3.class);
+         act4 = new Intent(MainActivity.this, MainActivity4.class);
+         act5 = new Intent(MainActivity.this, MainActivity5.class);
+         act6 = new Intent(MainActivity.this, MainActivity6.class);
+         act7 = new Intent(MainActivity.this, MainActivity7.class);
+         act8 = new Intent(MainActivity.this, MainActivity8.class);
+         act9 = new Intent(MainActivity.this, MainActivity9.class);
+         act10 = new Intent(MainActivity.this, MainActivity10.class);
+         act11 = new Intent(MainActivity.this, MainActivity11.class);
+         act12 = new Intent(MainActivity.this, MainActivity12.class);
 
 
         CallActivity(menu1, act1);

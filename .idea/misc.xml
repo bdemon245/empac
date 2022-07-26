@@ -4,12 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.124" />
+        <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/drawable/best_emac.xml" value="0.123" />
         <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/drawable/calculator_menu.xml" value="0.124" />
+        <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/drawable/ic_calculator_empac.xml" value="0.124" />
         <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/drawable/ic_launcher_background.xml" value="0.124" />
         <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/font/sutonny_mj.xml" value="0.14322916666666666" />
+        <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/font/sutonnymj.xml" value="0.1421875" />
         <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/layout/activity_loading.xml" value="0.11302083333333333" />
         <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/layout/activity_main1.xml" value="0.2" />
+        <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/layout/activity_main1.xml" value="0.264" />
         <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/layout/activity_main10.xml" value="0.24010416666666667" />
         <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/layout/activity_main11.xml" value="0.25416666666666665" />
         <entry key="..\:/Learning/Apps Dev/Java/EmpacCollegev002/app/src/main/res/layout/activity_main12.xml" value="0.24010416666666667" />

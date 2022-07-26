@@ -1,24 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity1"
+    android:orientation="vertical"
     android:layout_gravity="center_horizontal">
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:gravity="center_horizontal">
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
-        android:layout_marginLeft="20sp"
-        android:layout_marginRight="20sp"
-        android:layout_marginTop="50sp"
-        android:layout_marginBottom="351dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut magna a enim viverra ornare nec id odio. Vivamus a risus vehicula ante posuere venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec congue ac nunc sit amet elementum. Vestibulum et eleifend enim, sit amet feugiat purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus interdum vulputate nisi, et venenatis nunc congue eu. Aliquam ac augue ac est auctor vestibulum. In imperdiet volutpat lectus ac malesuada.  Donec pharetra feugiat tellus, sit amet consequat arcu. Cras ultricies dapibus sapien, ac ultrices massa scelerisque quis. Aliquam auctor rutrum elit, ac imperdiet sem ullamcorper ut. Maecenas viverra felis non tellus pretium pulvinar. Suspendisse placerat leo et consequat fermentum. Morbi iaculis nisi sed turpis facilisis, a gravida risus pulvinar. Phasellus sagittis dictum justo, nec tempor ligula maximus eu. Ut aliquet, odio non feugiat eleifend, nulla urna tincidunt quam, non viverra enim tellus non enim. Praesent eu turpis cursus, porttitor risus in, fringilla neque. Sed tempus viverra ornare." />
+       android:orientation="vertical"
+       android:gravity="center_horizontal"
+       android:padding="20sp">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/head_1"
+           android:textSize="34dp"
+           android:textAlignment="center"
+           android:layout_marginLeft="15sp"
+           android:layout_marginTop="30sp"
+           android:layout_marginRight="15sp"
+           android:textColor="@color/colorPrimary" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/sub_head_1"
+           android:textSize="24dp"
+           android:layout_gravity="start"
+           android:layout_marginLeft="0sp"
+           android:layout_marginTop="30sp"
+           android:textColor="@color/colorPrimary" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="12sp"
+           android:layout_marginTop="15sp"
+           android:layout_marginRight="12sp"
+           android:justificationMode="inter_word"
+           android:layout_marginBottom="30dp"
+           android:textSize="20sp"
+           android:text="@string/desc_1" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/sub_head_2"
+           android:textSize="24dp"
+           android:layout_gravity="start"
+           android:layout_marginLeft="0sp"
+           android:layout_marginTop="30sp"
+           android:textColor="@color/colorPrimary" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="12sp"
+           android:layout_marginTop="15sp"
+           android:layout_marginRight="12sp"
+           android:justificationMode="inter_word"
+           android:layout_marginBottom="15dp"
+           android:textSize="20sp"
+           android:text="@string/desc_2" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="12sp"
+           android:layout_marginRight="12sp"
+           android:layout_marginBottom="15sp"
+           android:justificationMode="inter_word"
+           android:textSize="20sp"
+           android:text="@string/desc_2_2"/>
    </LinearLayout>
 </ScrollView>
