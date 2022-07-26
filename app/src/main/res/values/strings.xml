@@ -14,4 +14,7 @@
     <string name="S7">7th Semester</string>
     <string name="S8">8th Semester</string>
     <string name="credits"><b>© Mojahidul Islam Emon. All rights reserved to Nobody</b></string>
+    <string-array name="add_qf">
+        <item name="title">ভর্তির যোগ্যতা</item>
+    </string-array>
 </resources>
