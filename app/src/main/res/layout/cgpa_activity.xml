@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CgpaActivity"
-    tools:ignore="HardcodedText">
+    tools:ignore="HardcodedText"
+    android:paddingTop="35sp">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -309,21 +310,5 @@
             tools:ignore="ButtonStyle" />
 
     </LinearLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="300sp"
-            android:gravity="center"
-            android:text="@string/credits"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textColor="@color/color1"
-            android:textSize="12sp" />
-    </RelativeLayout>
 
 </LinearLayout>
