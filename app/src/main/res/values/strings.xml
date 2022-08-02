@@ -36,7 +36,7 @@
     <string name="graduates"><b>কৃতী শিক্ষার্থী</b></string>
     <string name="gallery"><b>গ্যালারি</b></string>
     <string name="contact"><b>যোগাযোগ</b></string>
-    <string name="credits"><b></b></string>
-    <string name="result"><b>পরীক্ষার ফলাফল</b></string>
+    <string name="credits"><b>Credits</b></string>
+    <string name="result"><b>ফলাফল</b></string>
     <string name="importance_of_technical_education"><b>কারিগরি শিক্ষার প্রয়োজনীয়তা</b></string>
 </resources>

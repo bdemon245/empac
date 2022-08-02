@@ -1,19 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity1"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addmission_head"
+            android:textSize="34dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="15sp"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addmission_subhead"
+            android:textSize="24dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="0sp"
+            android:layout_marginTop="30sp"
+            android:textColor="@color/colorPrimary" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="281dp"
-        android:layout_height="238dp"
-        android:layout_marginEnd="64dp"
-        android:text="aohwofjhwoeirjouiwahioprtjeiouhfouiwjhruiojhweiorjhwoiejhrfuiowjerfiopwjhrfuioqwh"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="12sp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/addmission_desc" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addmission_subhead_2"
+            android:textSize="24dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="0sp"
+            android:layout_marginTop="15sp"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="12sp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/addmission_desc_2" />
+
+    </LinearLayout>
+</ScrollView>
