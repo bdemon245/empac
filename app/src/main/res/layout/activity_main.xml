@@ -252,7 +252,7 @@
                     android:layout_height="75sp"
                     android:clickable="true"
                     android:focusable="true"
-                    android:src="@drawable/ic_result" />
+                    android:src="@drawable/ic_notice" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="45dp"

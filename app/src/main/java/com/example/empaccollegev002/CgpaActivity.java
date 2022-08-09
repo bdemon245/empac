@@ -1,9 +1,12 @@
 package com.example.empaccollegev002;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +15,8 @@ public class CgpaActivity extends AppCompatActivity {
     EditText S1,S2,S3,S4,S5,S6,S7,S8; //assigning variables
     TextView tv, g1,g2,g3,g4,g5,g6,g7,g8;
     Button bt_calc, resetButton, grade;
+    String url;
+    ImageView result;
     boolean isAllFieldsChecked, ifGreaterThen4;
 
     @Override
@@ -42,6 +47,15 @@ public class CgpaActivity extends AppCompatActivity {
         bt_calc =  findViewById(R.id.bt_calc);
         grade = findViewById(R.id.grade);
         resetButton = findViewById(R.id.resetButton);
+        result = findViewById(R.id.btn_result);
+
+        result.setOnClickListener(v -> {
+            // TODO Auto-generated method stub
+            url = "https://btebresultszone.com/results/";
+            Intent i2 = new Intent(Intent.ACTION_VIEW);
+            i2.setData(Uri.parse(url));
+            startActivity(i2);
+        });
 
         bt_calc.setOnClickListener(new View.OnClickListener() { //function for calculation button
             @Override
@@ -69,6 +83,7 @@ public class CgpaActivity extends AppCompatActivity {
                     tv.setText("Your CGPA is :" + ans);
 
                 }
+
             }
             private boolean MaxValid(){
                 String F1 = S1.getText().toString().trim();
@@ -197,14 +212,22 @@ public class CgpaActivity extends AppCompatActivity {
             }
         });
         grade.setOnClickListener(view ->{
-            double s1 = Double.parseDouble(S1.getText().toString());
-            double s2 = Double.parseDouble(S2.getText().toString());
-            double s3 = Double.parseDouble(S3.getText().toString());
-            double s4 = Double.parseDouble(S4.getText().toString());
-            double s5 = Double.parseDouble(S5.getText().toString());
-            double s6 = Double.parseDouble(S6.getText().toString());
-            double s7 = Double.parseDouble(S7.getText().toString());
-            double s8 = Double.parseDouble(S8.getText().toString());
+            String F1 = S1.getText().toString().trim();
+            String F2 = S2.getText().toString().trim();
+            String F3 = S3.getText().toString().trim();
+            String F4 = S4.getText().toString().trim();
+            String F5 = S5.getText().toString().trim();
+            String F6 = S6.getText().toString().trim();
+            String F7 = S7.getText().toString().trim();
+            String F8 = S8.getText().toString().trim();
+            double s1 = F1.isEmpty() ? 0.0 : Double.parseDouble(F1);
+            double s2 = F2.isEmpty() ? 0.0 : Double.parseDouble(F2);
+            double s3 = F3.isEmpty() ? 0.0 : Double.parseDouble(F3);
+            double s4 = F4.isEmpty() ? 0.0 : Double.parseDouble(F4);
+            double s5 = F5.isEmpty() ? 0.0 : Double.parseDouble(F5);
+            double s6 = F6.isEmpty() ? 0.0 : Double.parseDouble(F6);
+            double s7 = F7.isEmpty() ? 0.0 : Double.parseDouble(F7);
+            double s8 = F8.isEmpty() ? 0.0 : Double.parseDouble(F8);
 
             if(s1<=4 && s2<=4 && s3<=4 && s4<=4 && s5<=4 && s6<=4 && s7<=4 && s8<=4){
                 if(s1==4) {                         //SET1

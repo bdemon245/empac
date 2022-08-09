@@ -14,8 +14,8 @@
     <string name="S7">7th Semester</string>
     <string name="S8">8th Semester</string>
     <string name="head_1"><B>ইম্পেক কেন সেরা?</B></string>
-        <string name="sub_head_1"><B>আমাদের বিশেষত্ব</B></string>
-            <string name="desc_1"><b>\u2022  দক্ষ ব্যবস্থাপনা, স্থায়ী ও অভিজ্ঞ শিক্ষক মন্ডলী দ্বারা পাঠদান\n\n\u2022  সার্বক্ষণিক বিদ্যুৎ ব্যবস্থা, Wi-Fi সুবিধা এবং Well-equipped ল্যাব\n\n\u2022 শীতাতপ নিয়ন্ত্রিত স্বয়ং সম্পূর্ণ ল্যাবে মাল্টিমিডিয়া প্রজেক্টরের মাধ্যমে পাঠদান \n\n\u2022 ব্যবহারিক ক্লাস তথা হাতে-কলমে শিক্ষা সহ এক্সট্রা কারিকুলার এক্টিভিটিতে অধিক গুরুত্ব প্রদান</b></string>
+    <string name="sub_head_1"><B>আমাদের বিশেষত্ব</B></string>
+    <string name="desc_1"><b>\u2022  দক্ষ ব্যবস্থাপনা, স্থায়ী ও অভিজ্ঞ শিক্ষক মন্ডলী দ্বারা পাঠদান\n\n\u2022  সার্বক্ষণিক বিদ্যুৎ ব্যবস্থা, Wi-Fi সুবিধা এবং Well-equipped ল্যাব\n\n\u2022 শীতাতপ নিয়ন্ত্রিত স্বয়ং সম্পূর্ণ ল্যাবে মাল্টিমিডিয়া প্রজেক্টরের মাধ্যমে পাঠদান \n\n\u2022 ব্যবহারিক ক্লাস তথা হাতে-কলমে শিক্ষা সহ এক্সট্রা কারিকুলার এক্টিভিটিতে অধিক গুরুত্ব প্রদান</b></string>
     <string name="sub_head_2"><B>আমাদের কতেক শ্রেষ্ঠ অর্জন</B></string>
     <string name="desc_2"><b>\u2022  চট্টগ্রামে পলিটেকনিকের ইতিহাসে একাধিকবার শতভাগ পাশের একমাত্র পলিটেকনিক\n\n\u2022 ২০১৪ সালে আইসিটি মন্ত্রণালয়াধীন মোবাইল এপ্লিকেশন আন্তঃ বিভাগীয় প্রতিযোগিতায় ৩য় স্থান অর্জন\n\n\u2022  BCSIR বিজ্ঞান মেলায় অংশগ্রহন করে ১ম পুরস্কার অর্জন\n\n\u2022 মহাকাশ গবেষণা প্রতিষ্ঠান নাসা আয়োজিত \“নাসা স্পেস অ্যাপ চ্যালেঞ্জ\” প্রতিযোগিতায় জাতীয় পর্যায়ে ৩য় স্থান অর্জন</b></string>
     <string name="desc_2_2"><b>\u2022  ডিপ্লোমা ফাইনাল পরীক্ষা ২০১৪, ২০১৫ ও ২০১৮-তে জাতীয় মেধা তালিকায় ইমপেকের শিক্ষার্থীদের যথাক্রমে ৪র্থ, ৪র্থ এবং ২য় স্থান অধিকার সহ বিভিন্ন সময়ে চট্টগ্রামে সর্বোচ্চ সিজিপিএ অর্জন</b></string>
@@ -34,9 +34,60 @@
     <string name="books"><b>বই ও সিলেবাস</b></string>
     <string name="probidhan"><b>প্রবিধান</b></string>
     <string name="graduates"><b>কৃতী শিক্ষার্থী</b></string>
+    <string name="principal_speech_txt"> অংশ অংশভাক আঁইশ ইঁচড়েপাকা ঈক্ষণ ঈদৃক অংশভাগী জওয়ান অংশাঙ্কিত ইউক্যালিপটাস অংশাবতার হালহদিশ পিতৃতর্পণ টকানো ঈক্ষিত জগজ্জন তকতনামা আঁকুবাঁকু পঁইছা
+  জগঝপ্প পঁহুছা দ্রাবিড়ী আঁকুড়ি ঈদৃক জগদম্বা টঙ্ক অংশিন্‌ জগদ্গৌরী আঁচা তকরার তিলপিটালি গজ-দাঁত অংশু ঈপ্সনীয় পইতা শংকরাভরণ হংসগমন পকড় অংশুধর ঈপ্সু ঈর্ষী
+  জগদ্ধাত্রী আঁজনাই তক্তি শংসনপত্র হংসারূঢ়া দংশল তক্ষক অংশুমান ইকেবানা জগদ্বন্ধু ঈশিত্ব ইক্ষ্বাকু আঁজি অংসকুট টঙ্কক তক্ষণাস্ত্র পকোড়া দংষ্ট্রা শকটিকা হকচকা বঁইচি শকল</string>
+    <string name="graduates_txt2"> অংশ অংশভাক আঁইশ ইঁচড়েপাকা ঈক্ষণ ঈদৃক অংশভাগী জওয়ান অংশাঙ্কিত ইউক্যালিপটাস অংশাবতার হালহদিশ পিতৃতর্পণ টকানো ঈক্ষিত জগজ্জন তকতনামা আঁকুবাঁকু পঁইছা
+  জগঝপ্প পঁহুছা দ্রাবিড়ী আঁকুড়ি ঈদৃক জগদম্বা টঙ্ক অংশিন্‌ জগদ্গৌরী আঁচা তকরার তিলপিটালি গজ-দাঁত অংশু ঈপ্সনীয় পইতা শংকরাভরণ হংসগমন পকড় অংশুধর ঈপ্সু ঈর্ষী
+  জগদ্ধাত্রী আঁজনাই তক্তি শংসনপত্র হংসারূঢ়া দংশল তক্ষক অংশুমান ইকেবানা জগদ্বন্ধু ঈশিত্ব ইক্ষ্বাকু আঁজি অংসকুট টঙ্কক তক্ষণাস্ত্র পকোড়া দংষ্ট্রা শকটিকা হকচকা বঁইচি শকল</string>
+    <string name="graduates_txt3"> অংশ অংশভাক আঁইশ ইঁচড়েপাকা ঈক্ষণ ঈদৃক অংশভাগী জওয়ান অংশাঙ্কিত ইউক্যালিপটাস অংশাবতার হালহদিশ পিতৃতর্পণ টকানো ঈক্ষিত জগজ্জন তকতনামা আঁকুবাঁকু পঁইছা
+  জগঝপ্প পঁহুছা দ্রাবিড়ী আঁকুড়ি ঈদৃক জগদম্বা টঙ্ক অংশিন্‌ জগদ্গৌরী আঁচা তকরার তিলপিটালি গজ-দাঁত অংশু ঈপ্সনীয় পইতা শংকরাভরণ হংসগমন পকড় অংশুধর ঈপ্সু ঈর্ষী
+  জগদ্ধাত্রী আঁজনাই তক্তি শংসনপত্র হংসারূঢ়া দংশল তক্ষক অংশুমান ইকেবানা জগদ্বন্ধু ঈশিত্ব ইক্ষ্বাকু আঁজি অংসকুট টঙ্কক তক্ষণাস্ত্র পকোড়া দংষ্ট্রা শকটিকা হকচকা বঁইচি শকল</string>
+    <string name="graduates_txt4"> অংশ অংশভাক আঁইশ ইঁচড়েপাকা ঈক্ষণ ঈদৃক অংশভাগী জওয়ান অংশাঙ্কিত ইউক্যালিপটাস অংশাবতার হালহদিশ পিতৃতর্পণ টকানো ঈক্ষিত জগজ্জন তকতনামা আঁকুবাঁকু পঁইছা
+  জগঝপ্প পঁহুছা দ্রাবিড়ী আঁকুড়ি ঈদৃক জগদম্বা টঙ্ক অংশিন্‌ জগদ্গৌরী আঁচা তকরার তিলপিটালি গজ-দাঁত অংশু ঈপ্সনীয় পইতা শংকরাভরণ হংসগমন পকড় অংশুধর ঈপ্সু ঈর্ষী
+  জগদ্ধাত্রী আঁজনাই তক্তি শংসনপত্র হংসারূঢ়া দংশল তক্ষক অংশুমান ইকেবানা জগদ্বন্ধু ঈশিত্ব ইক্ষ্বাকু আঁজি অংসকুট টঙ্কক তক্ষণাস্ত্র পকোড়া দংষ্ট্রা শকটিকা হকচকা বঁইচি শকল</string>
+    <string name="graduates_txt5"> অংশ অংশভাক আঁইশ ইঁচড়েপাকা ঈক্ষণ ঈদৃক অংশভাগী জওয়ান অংশাঙ্কিত ইউক্যালিপটাস অংশাবতার হালহদিশ পিতৃতর্পণ টকানো ঈক্ষিত জগজ্জন তকতনামা আঁকুবাঁকু পঁইছা
+  জগঝপ্প পঁহুছা দ্রাবিড়ী আঁকুড়ি ঈদৃক জগদম্বা টঙ্ক অংশিন্‌ জগদ্গৌরী আঁচা তকরার তিলপিটালি গজ-দাঁত অংশু ঈপ্সনীয় পইতা শংকরাভরণ হংসগমন পকড় অংশুধর ঈপ্সু ঈর্ষী
+  জগদ্ধাত্রী আঁজনাই তক্তি শংসনপত্র হংসারূঢ়া দংশল তক্ষক অংশুমান ইকেবানা জগদ্বন্ধু ঈশিত্ব ইক্ষ্বাকু আঁজি অংসকুট টঙ্কক তক্ষণাস্ত্র পকোড়া দংষ্ট্রা শকটিকা হকচকা বঁইচি শকল</string>
+
     <string name="gallery"><b>গ্যালারি</b></string>
+    <string name="gallery_txt1"><b>জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের</b></string>
+    <string name="gallery_txt2"><b>জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের</b></string>
+    <string name="gallery_txt3"><b>জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের</b></string>
+    <string name="gallery_txt4"><b>জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের</b></string>
+    <string name="gallery_txt5"><b>জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের</b></string>
+    <string name="gallery_txt6"><b>জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের</b></string>
     <string name="contact"><b>যোগাযোগ</b></string>
     <string name="credits"><b>Credits</b></string>
-    <string name="result"><b>ফলাফল</b></string>
+    <string name="credits_txt"><b>This is an app made by a group of student in Empac College of Technology under the supervision of our Honourable Principal <b>MD Kamrul Hoda</b> sir and our very dear <b>Omur Mohammad Faruk</b> sir</b></string>
+    <string name="credits_txt2"><b>Contributors</b></string>
+    <string name="credits_txt3"><b>\u2022 Advisors :</b>\n    \u2022 <b>MD Kamrul Huda</b>,\n       Principal,\n       Empac College Of Technology.\n    \u2022 <b>Omur Mohammad Faruk</b>,\n       Assistant Teacher,\n       Empac College Of Technology.</string>
+    <string name="credits_txt4"><b>\u2022 Design :</b>\n    \u2022 <b>Mohammad Belal</b>,\n      Student, 7th Computer,\n      Empac College Of Technology.\n    \u2022 <b>Mojahidul Islam Emon</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.</string>
+    <string name="credits_txt5"><b>\u2022 Coding :</b>\n    \u2022 <b>Mojahidul Islam Emon</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>Mohammad Belal</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.</string>
+    <string name="credits_txt6"><b>\u2022 Data Collecting :</b>\n    \u2022 <b>Hasan Siddique Sawon</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>Nikah Sultana</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>MD Kawser</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>MD Jahin</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>Omor Sakib</b>,\n       Student, 7th Computer,\n       Empac College Of Technology <b>\u0026 \n       Everyone from 7th Computer</b></string>
+    <string name="result"><b>নোটিশ</b></string>
     <string name="importance_of_technical_education"><b>কারিগরি শিক্ষার প্রয়োজনীয়তা</b></string>
+    <!--Arrays for spinner-->
+    <string-array name="items">
+        <item name="notice_cat">Notice Categories</item>
+        <item name="notice_gen">General Notice</item>
+        <item name="notice_exam">Exam Related</item>
+        <item name="notice_acc">Accounts Related</item>
+
+    </string-array>
+
+    <string-array name="items2">
+        <item name="dept0">Department</item>
+        <item name="dept1">Computer</item>
+        <item name="dept2">Electrical</item>
+        <item name="dept3">Electronics</item>
+    </string-array>
+
+    <string-array name="items3">
+        <item name="prb">Regulation</item>
+        <item name="prb10">2010</item>
+        <item name="prb16">2016</item>
+        <item name="prb22">2022</item>
+
+    </string-array>
 </resources>

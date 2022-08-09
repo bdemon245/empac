@@ -1,9 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity5">
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity5"
+    tools:ignore="HardcodedText"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/depts"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textSize="25sp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/dp1"
+            android:padding="20sp"
+            android:text="@string/depts_1"
+            android:background="@color/colorPrimary"
+            android:layout_margin="7sp"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/dp2"
+            android:padding="20sp"
+            android:text="@string/depts_2"
+            android:background="@color/colorPrimary"
+            android:layout_margin="7sp"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/dp3"
+            android:padding="20sp"
+            android:text="@string/depts_3"
+            android:background="@color/colorPrimary"
+            android:layout_margin="7sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/dp4"
+            android:padding="20sp"
+            android:text="@string/depts_4"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="10sp"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/dp5"
+            android:padding="20sp"
+            android:text="@string/depts_5"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="10sp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:text="*Click each department to see syllabus"
+        android:textColor="@color/color2"
+        android:gravity="bottom"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+</LinearLayout>
