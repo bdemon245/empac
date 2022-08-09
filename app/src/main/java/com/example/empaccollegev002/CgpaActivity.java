@@ -79,9 +79,8 @@ public class CgpaActivity extends AppCompatActivity {
 
                     double r1 = s1*0.05, r2 = s2*0.05,r3 = s3*0.05,r4 = s4*0.1,r5 = s5*0.15,r6 = s6*0.2,r7 = s7*0.25,r8 = s8*0.15;
                     double cgpa = r1 + r2 +r3 +r4 +r5 +r6 +r7 +r8;
-                    double ans = (double) Math.round(cgpa * 100) / 100; //round figure the decimal points
+                    double ans = (double) Math.round(cgpa * 100) / 100;//round figure the decimal points
                     tv.setText("Your CGPA is :" + ans);
-
                 }
 
             }
