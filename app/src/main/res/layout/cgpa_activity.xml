@@ -26,13 +26,15 @@
                 android:gravity="left"
                 android:id="@+id/page_title"
                 android:foregroundGravity="left"/>
-            <ImageView
-                android:layout_width="45sp"
+            <Button
+                android:layout_width="wrap_content"
+                android:padding="15sp"
+                android:background="@color/colorPrimary"
                 android:layout_height="45sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:id="@+id/btn_result"
-                android:src="@drawable/ic_result"/>
+                android:text="Check Result"
+                android:id="@+id/btn_result"/>
 
         </TableRow>
 
@@ -376,27 +378,37 @@
                 android:textColor="@color/color2"
                 android:textColorHint="@color/color2"/>
         </TableRow>
-        <TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
             <TextView
-                android:layout_column="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20sp"
                 android:layout_marginBottom="3sp"
+                android:layout_marginRight="10sp"
                 android:id="@+id/tv"
                 android:gravity="center"
                 android:textColorHint="@color/colorPrimary"
                 android:textColor="@color/colorPrimary"
                 android:hint="@string/tv_hint"
                 android:textSize="25sp" />
-            <TextView
+           <!--comment <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/tv2"
                 android:gravity="center"
                 android:layout_marginTop="20sp"
                 android:layout_marginBottom="3sp"
                 android:textColorHint="@color/colorPrimary"
                 android:textColor="@color/colorPrimary"
+                android:hint="Grade"
                 android:textSize="25sp" />
-        </TableRow>
-    </TableLayout>
+                -->
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

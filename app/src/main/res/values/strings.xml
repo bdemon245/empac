@@ -4,7 +4,7 @@
 
     <!-- For CGPA Calculator Section-->
     <string name="heading"><b>CGPA calculator for BTEB</b></string>
-    <string name="tv_hint">Your CGPA</string>
+    <string name="tv_hint">Your CGPA </string>
     <string name="S1">1st Semester</string>
     <string name="S2">2nd Semester</string>
     <string name="S3">3rd Semester</string>
@@ -64,7 +64,7 @@
     <string name="credits_txt3"><b>\u2022 Advisors :</b>\n    \u2022 <b>MD Kamrul Huda</b>,\n       Principal,\n       Empac College Of Technology.\n    \u2022 <b>Omur Mohammad Faruk</b>,\n       Assistant Teacher,\n       Empac College Of Technology.</string>
     <string name="credits_txt4"><b>\u2022 Design :</b>\n    \u2022 <b>Mohammad Belal</b>,\n      Student, 7th Computer,\n      Empac College Of Technology.\n    \u2022 <b>Mojahidul Islam Emon</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.</string>
     <string name="credits_txt5"><b>\u2022 Coding :</b>\n    \u2022 <b>Mojahidul Islam Emon</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>Mohammad Belal</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.</string>
-    <string name="credits_txt6"><b>\u2022 Data Collecting :</b>\n    \u2022 <b>Hasan Siddique Sawon</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>Nikah Sultana</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>MD Kawser</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>MD Jahin</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>Omor Sakib</b>,\n       Student, 7th Computer,\n       Empac College Of Technology <b>\u0026 \n       Everyone from 7th Computer</b></string>
+    <string name="credits_txt6"><b>\u2022 Presentation :</b>\n    \u2022 <b>Hasan Siddique Sawon</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>Nikah Sultana</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.\n    \u2022 <b>MD Jahin</b>,\n       Student, 7th Computer,\n       Empac College Of Technology.</string>
     <string name="result"><b>নোটিশ</b></string>
     <string name="importance_of_technical_education"><b>কারিগরি শিক্ষার প্রয়োজনীয়তা</b></string>
     <!--Arrays for spinner-->

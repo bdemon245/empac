@@ -1,9 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity11">
+    tools:context=".MainActivity11"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:gravity="center"
+        android:padding="5sp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20sp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20sp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView
+                android:id="@+id/ic_phone"
+                android:layout_width="48dp"
+                android:clickable="true"
+                android:layout_marginLeft="10sp"
+                android:layout_height="48dp"
+                android:layout_marginRight="15sp"
+
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ic_phone" />
+
+            <TextView
+                android:id="@+id/phone_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:clickable="true"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="10sp"
+                android:justificationMode="inter_word"
+                android:text="+8801611710088"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20sp">
+
+            <ImageView
+                android:id="@+id/ic_mail"
+                android:layout_width="48dp"
+
+                android:clickable="true"
+                android:layout_marginLeft="10sp"
+                android:layout_height="48dp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ic_envelope_edit" />
+
+            <TextView
+                android:id="@+id/mail_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:clickable="true"
+                android:layout_marginEnd="10sp"
+                android:justificationMode="inter_word"
+                android:text="empacbd@mail.com"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20sp">
+
+            <ImageView
+                android:id="@+id/ic_fb"
+                android:layout_width="48dp"
+                android:clickable="true"
+                android:layout_marginLeft="10sp"
+                android:layout_height="48dp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ic_facebook_f" />
+
+            <TextView
+                android:id="@+id/fb_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:clickable="true"
+                android:layout_marginEnd="10sp"
+                android:justificationMode="inter_word"
+                android:text="facebook.com/empacpolytechnic"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20sp">
+
+            <ImageView
+                android:id="@+id/ic_whatsapp"
+                android:layout_width="48dp"
+                android:clickable="true"
+                android:layout_marginLeft="10sp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ic_whatsapp" />
+
+            <TextView
+                android:id="@+id/whatsapp_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:clickable="true"
+                android:layout_marginEnd="10sp"
+                android:justificationMode="inter_word"
+                android:text="+8801611710088"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20sp">
+
+            <ImageView
+                android:id="@+id/ic_web"
+                android:layout_width="48dp"
+                android:clickable="true"
+                android:layout_marginLeft="10sp"
+                android:layout_height="48dp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ic_globe" />
+
+            <TextView
+                android:id="@+id/web_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:clickable="true"
+                android:layout_marginEnd="10sp"
+                android:justificationMode="inter_word"
+                android:text="www.empac.com.bd"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20sp">
+
+            <ImageView
+                android:id="@+id/map_ic"
+                android:layout_width="48dp"
+                android:clickable="true"
+                android:layout_marginLeft="10sp"
+                android:layout_height="48dp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ic_map_marker" />
+
+            <TextView
+                android:id="@+id/map_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:clickable="true"
+                android:layout_marginEnd="10sp"
+                android:justificationMode="inter_word"
+                android:text="815, CDA avenue Sekander Plaza, Dampara, (Opposite of Sohag Bus Counter ) G.E.C, Chattogram"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    
+
+</LinearLayout>

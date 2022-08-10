@@ -6,17 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class CgpaActivity extends AppCompatActivity {
     EditText S1,S2,S3,S4,S5,S6,S7,S8; //assigning variables
-    TextView tv, g1,g2,g3,g4,g5,g6,g7,g8;
+    TextView tv,tv2, g1,g2,g3,g4,g5,g6,g7,g8;
     Button bt_calc, resetButton, grade;
     String url;
-    ImageView result;
+    Button result;
     boolean isAllFieldsChecked, ifGreaterThen4;
 
     @Override
@@ -44,6 +43,7 @@ public class CgpaActivity extends AppCompatActivity {
         g8= findViewById(R.id.g8);
 
         tv = findViewById(R.id.tv);//button assigning section
+        //tv2 = findViewById(R.id.tv2);//button assigning section
         bt_calc =  findViewById(R.id.bt_calc);
         grade = findViewById(R.id.grade);
         resetButton = findViewById(R.id.resetButton);
@@ -81,6 +81,7 @@ public class CgpaActivity extends AppCompatActivity {
                     double cgpa = r1 + r2 +r3 +r4 +r5 +r6 +r7 +r8;
                     double ans = (double) Math.round(cgpa * 100) / 100;//round figure the decimal points
                     tv.setText("Your CGPA is :" + ans);
+                    //tv2.setText("(" + ans +")");
                 }
 
             }

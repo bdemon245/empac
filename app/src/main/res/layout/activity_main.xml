@@ -56,7 +56,7 @@
                 <ImageView
                     android:id="@+id/menu1"
                     android:layout_width="85sp"
-                    android:layout_height="85sp"
+                    android:layout_height="65sp"
                     android:clickable="true"
                     android:focusable="true"
                     android:src="@drawable/ic_best_empac" />
@@ -82,7 +82,7 @@
                 <ImageView
                     android:id="@+id/menu3"
                     android:layout_width="85sp"
-                    android:layout_height="85sp"
+                    android:layout_height="65sp"
                     android:clickable="true"
                     android:focusable="true"
                     android:src="@drawable/ic_admission" />
@@ -107,7 +107,7 @@
                 <ImageView
                     android:id="@+id/menu2"
                     android:layout_width="85sp"
-                    android:layout_height="85sp"
+                    android:layout_height="65sp"
                     android:clickable="true"
                     android:focusable="true"
                     android:src="@drawable/ic_calculator_empac" />
