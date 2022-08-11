@@ -13,5 +13,6 @@
     <color name="colorPrimary">#3589C0</color>
     <color name="colorPrimary2">#3B8154</color>
     <color name="color1">#7CB385</color>
+    <color name="color3">#4cffffff</color>
     <color name="color2">#878A88</color>
 </resources>

@@ -16,6 +16,9 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".feedBackAct"
+            android:exported="false" />
+        <activity
             android:name=".Syllabus5"
             android:exported="false" />
         <activity

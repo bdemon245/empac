@@ -1,14 +1,16 @@
 package com.example.empaccollegev002;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8,menu9,menu10,menu11,menu12;
-    Intent act1,act2,act3,act4,act5,act6,act7,act8,act9,act10,act11,act12;
+    ImageView menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8,menu9,menu10,menu11,menu12, feedB;
+    Intent act1,act2,act3,act4,act5,act6,act7,act8,act9,act10,act11,act12, feedAct;
+    String url;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +29,15 @@ public class MainActivity extends AppCompatActivity {
         menu10 = findViewById(R.id.menu10);
         menu11 = findViewById(R.id.menu11);
         menu12 = findViewById(R.id.menu12);
+        feedB = findViewById(R.id.img_feedb);
+        feedB.setOnClickListener(v -> {
+            // TODO Auto-generated method stub
+            url = "https://forms.gle/oM8NF5aRKKp6WtJK7";
+            Intent i2 = new Intent(Intent.ACTION_VIEW);
+            i2.setData(Uri.parse(url));
+            startActivity(i2);
+        });
+
 
         //initiating activities
          act1 = new Intent(MainActivity.this, MainActivity1.class);
@@ -41,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
          act10 = new Intent(MainActivity.this, MainActivity10.class);
          act11 = new Intent(MainActivity.this, MainActivity11.class);
          act12 = new Intent(MainActivity.this, MainActivity12.class);
+         feedAct = new Intent(MainActivity.this, feedBackAct.class);
 
 
         CallActivity(menu1, act1);
@@ -55,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         CallActivity(menu10, act10);
         CallActivity(menu11, act11);
         CallActivity(menu12, act12);
+        CallActivity(feedB, feedAct);
 
 
     }
