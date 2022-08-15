@@ -14,8 +14,6 @@ EditText etName, etRoll, etTech, etContact, etDescription;
 Button btnSubmit, btnReset, btnViewList;
 int toastLength;
 ListView lvList;
-    ArrayAdapter<userFeedBackModel> feedBackArray;
-    DatabaseHelper databaseHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,24 +29,23 @@ ListView lvList;
         btnSubmit = findViewById(R.id.btn_submit);
         btnReset = findViewById(R.id.btn_reset);
         btnViewList = findViewById(R.id.btn_view_list);
+        showUserInListView();
 
-        // creating an instance for database helper class to use getAll() method
-        databaseHelper = new DatabaseHelper(feedBackAct.this);
-
-        // creating an instance for ArrayAdapter & giving it the parameter of getAll method to use as an array in listview
-        feedBackArray = new ArrayAdapter<>(feedBackAct.this, android.R.layout.simple_list_item_1, databaseHelper.getAll());
-        lvList.setAdapter(feedBackArray);
-        toastLength = 2000;
+        toastLength = 1200;
 
         resetValues();
 
         btnViewList.setOnClickListener(v ->{
-            databaseHelper = new DatabaseHelper(feedBackAct.this);
-            feedBackArray = new ArrayAdapter<>(feedBackAct.this, android.R.layout.simple_list_item_1, databaseHelper.getAll());
-            lvList.setAdapter(feedBackArray);
-            //Toast.makeText(feedBackAct.this, viewAll.toString(), toastLength).show();
+            showUserInListView();
+            Toast.makeText(feedBackAct.this, "List Updated", toastLength).show();
         });
-
+        lvList.setOnItemClickListener((parent, view, position, id) -> {
+            userFeedBackModel clickedUser = (userFeedBackModel) parent.getItemAtPosition(position);
+            DatabaseHelper databaseHelper = new DatabaseHelper(feedBackAct.this);
+            databaseHelper.deleteOne(clickedUser);
+            showUserInListView();
+            Toast.makeText(feedBackAct.this, "Deleted ", toastLength).show();
+        });
         btnSubmit.setOnClickListener(v ->{
             userFeedBackModel userFeedBackModel;
             try {
@@ -71,6 +68,15 @@ ListView lvList;
         });
     }
 
+    private void showUserInListView() {
+        // creating an instance for database helper class to use getAll() method
+        DatabaseHelper databaseHelper = new DatabaseHelper(feedBackAct.this);
+
+        // creating an instance for ArrayAdapter & giving it the parameter of getAll method to use as an array in listview
+        ArrayAdapter<userFeedBackModel> feedBackArray = new ArrayAdapter<>(feedBackAct.this, android.R.layout.simple_list_item_1, databaseHelper.getAll());
+        lvList.setAdapter(feedBackArray);
+    }
+
     private void resetValues() {
         btnReset.setOnClickListener(v ->{
             etName.setText("");
@@ -80,6 +86,4 @@ ListView lvList;
             etContact.setText("");
         });
     }
-
-
 }

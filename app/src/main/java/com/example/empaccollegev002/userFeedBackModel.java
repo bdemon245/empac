@@ -22,15 +22,15 @@ public class userFeedBackModel {
     //toString for accessing toString() method like userFeedBackModel.toString();
     @Override
     public String toString() {
-        return "UserFeedBackModel{" +
-                "id=" + id +
-                ", roll=" + roll +
-                ", name='" + name + '\'' +
-                ", tech='" + tech + '\'' +
-                ", contact='" + contact + '\'' +
-                ", description='" + description + '\'' +
-                '}';
+        return "ID = "+ id +
+                ", Name=\t" + name +
+                ", Roll=\t" + roll +
+                ",\nTechnology= " + tech +
+                ", Description= " + description +
+                ",\nContact= "+ contact + "\n";
     }
+
+
     //Getters & Setters for accessing the variables
 
     public int getId() {

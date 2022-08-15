@@ -79,4 +79,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
          db.close();
          return list;
      }
+     public boolean deleteOne(userFeedBackModel userFeedBackModel){
+        //Will delete one from list view & update the list & return true else return false
+    SQLiteDatabase db = this.getWritableDatabase();
+    String deleteStm = "DELETE FROM " + FEEDBACKS_TABLE + " WHERE "+ ID + " = " + userFeedBackModel.getId();
+
+         Cursor cursor = db.rawQuery(deleteStm, null);
+         return cursor.moveToFirst();
+     }
 }
