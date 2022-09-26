@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="অধ্যক্ষ, ইম্পেক কলেজ অব টেকনোলজি"
             android:textSize="18dp"
-            android:layout_marginBottom="10sp"
+            android:layout_marginBottom="16sp"
             android:layout_gravity="center"
             android:textColor="@color/black"/>
 

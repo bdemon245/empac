@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -38,6 +37,7 @@
                     android:backgroundTint="@color/colorPrimary"
                     android:hint="Jhone Doe"
                     android:textColorHint="@color/color2"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/poppins"
                     android:inputType="textCapWords"
                     android:textSize="14sp"/>
@@ -54,6 +54,7 @@
                     android:backgroundTint="@color/colorPrimary"
                     android:hint="171563"
                     android:textColorHint="@color/color2"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/poppins"
                     android:inputType="number"
                     android:textSize="14sp"/>
@@ -70,6 +71,7 @@
                     android:backgroundTint="@color/colorPrimary"
                     android:hint="ENT , ET or CMT"
                     android:textColorHint="@color/color2"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/poppins"
                     android:inputType="textCapCharacters"
                     android:textSize="14sp"/>
@@ -86,6 +88,7 @@
                     android:backgroundTint="@color/colorPrimary"
                     android:hint="Email or Number"
                     android:textColorHint="@color/color2"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/poppins"
                     android:inputType="textCapWords"
                     android:textSize="14sp"/>
@@ -108,6 +111,7 @@
                     android:padding="10sp"
                     android:justificationMode="inter_word"
                     android:textColorHint="@color/color2"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/poppins"
                     android:inputType="textMultiLine"
                     android:background="@drawable/etbg"
